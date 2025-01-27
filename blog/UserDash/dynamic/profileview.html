@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar shadow p-2">
+        <i class="fa-solid fa-bars" id="menu-btn" style="cursor:pointer;"></i>
+        <p style="padding:5px;border:1px solid;border-radius:55%;font-weight: bold;margin-left:-5px;margin-top:3px;cursor:pointer;background-color: orange;color:white;" id="user-name">A</p>
+    </div>
+     <div class="row mt-5 profile-box animate__animated animate__fadeInDown">
+        <div class="col-sm-2"></div>
+       
+        <div class="col-sm-2"></div>
+     </div>
+     <div class="row">
+       <button class="btn btn-primary model-btn" data-bs-toggle="modal" data-bs-target="#mymodall" style="opacity:0;">Edit</button>
+        <div class="modal" id="mymodall">
+            <div class="modal-dialog animate__animated animate__fadeInDown">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title">Add Profile</h1>
+                    <button type="button" class="btn-close m_close_btn" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="update-form">
+                        <input type="text" class="form-control mb-3" placeholder="Name">
+                        <input type="number" class="form-control mb-3" placeholder="Mobile">
+                        <input type="email" class="form-control mb-3" placeholder="Email">
+                        <input type="text" class="form-control mb-3" placeholder="address">
+                        <textarea class="form-control mb-3" placeholder="Education"></textarea>
+                        <input type="text" class="form-control mb-3" placeholder="skill">
+                        <label for="profile">Profile Pic</label>
+                        <input type="file" class="form-control mb-3 mt-2">
+                        <input type="date" class="form-control mb-3" placeholder="DOB">
+                        <button class="btn btn-info w-100 text-white fw-bold"><i class="fa fa-edit"></i>Update</button>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+
+     </div>
+</body>
+</html>

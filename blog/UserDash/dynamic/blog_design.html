@@ -1,0 +1,39 @@
+<div class="navbar shadow p-2">
+    <i class="fa-solid fa-bars" id="menu-btn" style="cursor:pointer;"></i>
+    <p style="padding:5px;border:1px solid;border-radius:55%;font-weight: bold;margin-left:-5px;margin-top:3px;cursor:pointer;background-color: orange;color:white;" id="user-name">A</p>
+</div>
+<div class="row mx-4 animate__animated animate__fadeInDown">
+    <div class="col-md-4 shadow mt-5 p-4"  style="height:fit-content;">
+        <h3>Create blog</h3>
+       <form class="mt-2 blog-form">
+        <select class="form-select mb-3">
+            <option>choice cateogry</option>
+        </select>
+        <input type="text" class="form-control mb-3" placeholder="blog Name">
+        <input type="text" class="form-control mb-3" placeholder="discription">
+        <input type="file" placeholder="blog picture" class="form-control mb-2">
+        <button class="btn bg-success text-white fw-bold" type="submit">Create</button>
+        <button class="btn bg-warning text-white fw-bold" disabled type="button">update</button>
+       </form>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-6 mt-5 table-responsive shadow p-2" style="height:fit-content;">
+        <h3>blog List</h3>
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+            <tr>
+                <th>Sr</th>
+                <th>Profile</th>
+                <th>blog</th>
+                <th>Cateogry</th>
+                <th>Discription</th>
+                <th>Created Date</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody class="blog-list">
+            
+            </tbody>
+        </table>
+    </div>
+</div>

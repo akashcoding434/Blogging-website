@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--all css link-->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--all js link-->
+    <script src="js/sweetalert.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <h1 class="text-center shadow p-2"><span style="color: crimson;">U</span>SER <span style="color: green;">L</span>OGIN <span style="color: blue;">S</span>YSTEM</h1>  
+<div class="conatiner overflow-hidden">
+    <div class="row mt-5">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 mt-3 p-1">
+            <div class="row">
+                <div class="col-sm-6 shadow l-form overflow-hidden">
+                    <div class="active-box l-active-el" style="opacity:0;z-index:-1;">
+                        <h2>SIGN IN</h2>
+                        <p>If you have any account then login</p>
+                        <button class="btn l-btn">SIGN IN</button>
+                    </div>
+                    <div class="text-center">
+                        <h2>SIGN IN</h2>
+                        <i class="fa-brands fa-google" style="color:rgb(150, 150, 237);"></i>
+                        <i class="fa-brands fa-facebook" style="color:blue;"></i>
+                        <i class="fa-brands fa-whatsapp" style="color:green;"></i>
+                    </div>
+                    <br>
+                    <form class="login-form">
+                        <input type="email" class="form-control" placeholder="Email"><br>
+                        <input type="password" class="form-control" placeholder="Password"><br>
+                        <div class="text-center">
+                        <a href="#">Forget Password</a><br><br>   
+                        <button class="btn" id="log-btn">SIGN IN</button>
+                        <p class="l_notice fs-5 mt-2" style="color:red;font-weight: bold;"></p>
+                        </div>
+                    </form>
+                    <br>
+                </div>
+                <div class="col-sm-6 shadow l-form overflow-hidden">
+                    <div class="active-box s-active-el">
+                        <h2>SIGN UP</h2>
+                        <p>If you have not any account then sign up</p>
+                        <button class="btn s-btn">SIGN UP</button>
+                    </div>
+                    <div class="text-center">
+                        <h2>SIGN UP</h2>
+                        <i class="fa-brands fa-google" style="color:rgb(150, 150, 237);"></i>
+                        <i class="fa-brands fa-facebook" style="color:blue;"></i>
+                        <i class="fa-brands fa-whatsapp" style="color:green;"></i>
+                    </div>
+                    <br>
+                    <form class="reg-form">
+                        <input type="text" name="fname" class="form-control" placeholder="First Name"><br>
+                        <input type="text" name="lname" class="form-control" placeholder="Last Name"><br>
+                        <input type="mobile" name="mobile" class="form-control" placeholder="Mobile"><br>
+                        <input type="email" name="email" class="form-control" placeholder="Email"><br>
+                        <input type="password" name="password" class="form-control" placeholder="Password"><br>
+                        <div class="text-center">
+                        <button class="btn" id="sign-btn">SIGN UP</button>
+                        <p class="s_notice fs-5 mt-2" style="color:red;font-weight: bold;"></p>
+                        </div>
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+</div>
+ <script src="js/index.js"></script>   
+</body>
+</html>

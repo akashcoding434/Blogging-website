@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+.side-nav{
+    width:16%;
+    height:100vh;
+    background-color:rgb(138, 200, 238);
+    position:fixed;
+    top:0;
+    left:0;
+    transition: 0.4s ease;
+}
+.page{
+    width:84%;
+    margin-left: 16%;
+}
+.side-nav.open{
+    width:16%;
+    height:100vh;
+}
+.side-nav.close{
+    width:0;
+    opacity: 0;
+}
+.page.open{
+    width:84%;
+    margin-left: 16%;
+}
+.page.close{
+    width:100%;
+    margin-left:0;
+}
+ul li{
+    font-size: 17px;
+    font-weight: bold;
+}
+ul li:hover{
+    background-color: orange;
+    cursor: pointer;
+    color:azure;
+}
+
+.nav{
+    z-index:1000 !important;
+}  
